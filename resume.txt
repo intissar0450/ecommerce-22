@@ -1,0 +1,25 @@
+=> Register
+=> login
+=> auth
+
+
+-Server & link it to db
+-create register route 
+=> express validator , bcryptjs ,token
+
+
+
+-create login route 
+
+
+-create auth route (login is done)
+
+
+---------------------------------------------------------------
+
+
+Req => 
+1-action : execute the request !
+depending on the result of the request => 
+2-action Success :add information to the state !
+3- action Fail :add errors to state

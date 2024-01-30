@@ -1,0 +1,5 @@
+{
+  "db": "mongodb+srv://intissarjourni17:1234@cluster0.xmd3r1r.mongodb.net/auth2024?retryWrites=true&w=majority",
+  "secret": "shhh dont say it ",
+  "PORT": "5000"
+}
