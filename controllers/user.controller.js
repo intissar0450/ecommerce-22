@@ -57,7 +57,7 @@ exports.login = async (req, res) => {
     const isMatch = await bcryptjs.compare(password, user.password);
     if (!isMatch) return res.status(404).json({ msg: 'wrong informations' });
     const payload = {
-      _id: newUser._id,
+      _id: user._id,
     };
     let token = jwt.sign(payload, secret);
     res.send({

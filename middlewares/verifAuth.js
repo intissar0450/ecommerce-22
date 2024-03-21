@@ -1,6 +1,7 @@
 const config = require('config');
 const User = require('../models/User');
 const secret = config.get('secret');
+const jwt = require('jsonwebtoken');
 
 exports.verifyAuth = async (req, res, next) => {
   let token = req.headers.authorization;
